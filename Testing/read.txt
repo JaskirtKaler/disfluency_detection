@@ -1,0 +1,1 @@
+evaluate file professor provided as well as @SEP28K-T-dev_random_probs.csv sample file of how our model performs should be recorded in the file
