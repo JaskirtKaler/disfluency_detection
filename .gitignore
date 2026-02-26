@@ -2,3 +2,4 @@
 *.wav
 .DS_Store
 *.npy
+sep28k_env
