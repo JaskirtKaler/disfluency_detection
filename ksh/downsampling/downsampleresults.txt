@@ -41,3 +41,26 @@ Results for downsample2k
 # WordRep
 ## tp = 372 , tn = 1851 , fp = 80 , fn = 101
 ## precision = 0.823 , recall = 0.786 , f1 = 0.804 , accuracy = 0.925 , specificity = 0.959
+
+
+Results for no downsample
+
+# Block
+## tp = 296 , tn = 2909 , fp = 416 , fn = 385
+## precision = 0.416 , recall = 0.435 , f1 = 0.425 , accuracy = 0.8 , specificity = 0.875
+
+# Interjection
+## tp = 1076 , tn = 2628 , fp = 164 , fn = 138
+## precision = 0.868 , recall = 0.886 , f1 = 0.877 , accuracy = 0.925 , specificity = 0.941
+
+# Prolongation
+## tp = 341 , tn = 3225 , fp = 189 , fn = 251
+## precision = 0.643 , recall = 0.576 , f1 = 0.608 , accuracy = 0.89 , specificity = 0.945
+
+# SoundRep
+## tp = 315 , tn = 3283 , fp = 264 , fn = 144
+## precision = 0.544 , recall = 0.686 , f1 = 0.607 , accuracy = 0.898 , specificity = 0.926
+
+# WordRep
+## tp = 432 , tn = 3320 , fp = 129 , fn = 125
+## precision = 0.77 , recall = 0.776 , f1 = 0.773 , accuracy = 0.937 , specificity = 0.963
