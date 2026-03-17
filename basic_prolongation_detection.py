@@ -41,26 +41,32 @@ def predict(path, plot=False):
 
   similarity = 1 - lr.util.normalize(np.mean(lr.feature.delta(M) ** 2, axis=0))
 
-  similar = similarity > 0.9
-  boundaries = np.concatenate(([0], np.where(np.diff(similar))[0], [len(similar) - 1]))
+  a = 0
+  b = a
+  segments = []
   times = lr.times_like(X=M, sr=sr, hop_length=hop_length)
-  prediction = False
 
-  for i in range(len(boundaries) - 1):
-    a = boundaries[i]
-    b = boundaries[i + 1]
+  while b < len(times):
+    if rms[0][b] > 0.1 and similarity[b] > 0.92:
+      b += 1
 
-    if times[b] - times[a] > 0.25 and np.mean(rms[0, a:b]) > 0.1:
-      prediction = True
+    else:
+      if times[b] - times[a] > 0.25:
+        segments.append([a, b])
 
-      if plot:
-        pp.axvspan(times[a], times[b], alpha=0.5, color='red')
+      a = b + 1
+      b = a
+
+  prediction = len(segments) > 0
 
   if plot:
     pp.title(path)
     pp.plot(times, rms[0])
     pp.plot(times, similarity)
-    pp.vlines(times[boundaries], 0, 1, color='red')
+
+    for a, b in segments:
+      pp.axvspan(times[a], times[b], alpha=0.5, color='red')
+
     pp.show()
 
   return prediction
