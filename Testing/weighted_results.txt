@@ -1,0 +1,19 @@
+# Block
+## tp = 1029 , tn = 8676 , fp = 4777 , fn = 731
+## precision = 0.177 , recall = 0.585 , f1 = 0.272 , accuracy = 0.638 , specificity = 0.645
+
+# Interjection
+## tp = 1924 , tn = 9601 , fp = 2122 , fn = 1566
+## precision = 0.476 , recall = 0.551 , f1 = 0.511 , accuracy = 0.758 , specificity = 0.819
+
+# Prolongation
+## tp = 1088 , tn = 9309 , fp = 4402 , fn = 414
+## precision = 0.198 , recall = 0.724 , f1 = 0.311 , accuracy = 0.683 , specificity = 0.679
+
+# SoundRep
+## tp = 637 , tn = 11410 , fp = 2566 , fn = 600
+## precision = 0.199 , recall = 0.515 , f1 = 0.287 , accuracy = 0.792 , specificity = 0.816
+
+# WordRep
+## tp = 424 , tn = 11920 , fp = 1774 , fn = 1095
+## precision = 0.193 , recall = 0.279 , f1 = 0.228 , accuracy = 0.811 , specificity = 0.87
