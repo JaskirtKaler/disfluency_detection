@@ -1,5 +1,8 @@
 
 *.wav
+.DS_Store
+*.npy
+sep28k_env
 sep28k_env/
 venv/
 .env/
