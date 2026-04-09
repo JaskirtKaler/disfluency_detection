@@ -16,6 +16,43 @@ Results for 2k downsample, but every label except Block
 ## tp = 375 , tn = 1849 , fp = 82 , fn = 98
 ## precision = 0.821 , recall = 0.793 , f1 = 0.806 , accuracy = 0.925 , specificity = 0.958
 
+Every Label Except Prolongation
+
+# Interjection
+## tp = 365 , tn = 1859 , fp = 94 , fn = 86
+## precision = 0.795 , recall = 0.809 , f1 = 0.802 , accuracy = 0.925 , specificity = 0.952
+
+# Prolongation
+## tp = 294 , tn = 1780 , fp = 141 , fn = 189
+## precision = 0.676 , recall = 0.609 , f1 = 0.641 , accuracy = 0.863 , specificity = 0.927
+
+# SoundRep
+## tp = 258 , tn = 1865 , fp = 160 , fn = 121
+## precision = 0.617 , recall = 0.681 , f1 = 0.647 , accuracy = 0.883 , specificity = 0.921
+
+# WordRep
+## tp = 375 , tn = 1849 , fp = 82 , fn = 98
+## precision = 0.821 , recall = 0.793 , f1 = 0.806 , accuracy = 0.925 , specificity = 0.958
+
+Every Label Except SoundRep
+
+# Block
+## tp = 179 , tn = 1701 , fp = 221 , fn = 303
+## precision = 0.448 , recall = 0.371 , f1 = 0.406 , accuracy = 0.782 , specificity = 0.885
+
+# Interjection
+## tp = 389 , tn = 1827 , fp = 126 , fn = 62
+## precision = 0.755 , recall = 0.863 , f1 = 0.805 , accuracy = 0.922 , specificity = 0.935
+
+# Prolongation
+## tp = 308 , tn = 1773 , fp = 148 , fn = 175
+## precision = 0.675 , recall = 0.638 , f1 = 0.656 , accuracy = 0.866 , specificity = 0.923
+
+# WordRep
+## tp = 369 , tn = 1843 , fp = 88 , fn = 104
+## precision = 0.807 , recall = 0.78 , f1 = 0.794 , accuracy = 0.92 , specificity = 0.954
+
+
 Every Label Execpt Block and Prolongation
 
 # Interjection
@@ -39,3 +76,17 @@ Every Label Except Block, Prolongation, and SoundRep
 # WordRep
 ## tp = 392 , tn = 1820 , fp = 111 , fn = 81
 ## precision = 0.779 , recall = 0.829 , f1 = 0.803 , accuracy = 0.92 , specificity = 0.943
+
+Only Block, Prolongation, and SoundRep
+
+# Block
+## tp = 253 , tn = 1537 , fp = 385 , fn = 229
+## precision = 0.397 , recall = 0.525 , f1 = 0.452 , accuracy = 0.745 , specificity = 0.8
+
+# Prolongation
+## tp = 287 , tn = 1813 , fp = 108 , fn = 196
+## precision = 0.727 , recall = 0.594 , f1 = 0.654 , accuracy = 0.874 , specificity = 0.944
+
+# SoundRep
+## tp = 214 , tn = 1903 , fp = 122 , fn = 165
+## precision = 0.637 , recall = 0.565 , f1 = 0.599 , accuracy = 0.881 , specificity = 0.94
