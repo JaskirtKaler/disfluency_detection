@@ -113,3 +113,25 @@ Full multilabel on UClass
 # WordRep
 ## tp = 155 , tn = 3975 , fp = 407 , fn = 175
 ## precision = 0.276 , recall = 0.47 , f1 = 0.348 , accuracy = 0.876 , specificity = 0.907
+
+Full multilabel on FluencyBank
+
+# Block
+## tp = 45 , tn = 3317 , fp = 399 , fn = 383
+## precision = 0.101 , recall = 0.105 , f1 = 0.103 , accuracy = 0.811 , specificity = 0.893
+
+# Interjection
+## tp = 958 , tn = 2822 , fp = 192 , fn = 172
+## precision = 0.833 , recall = 0.848 , f1 = 0.84 , accuracy = 0.912 , specificity = 0.936
+
+# Prolongation
+## tp = 47 , tn = 3017 , fp = 789 , fn = 291
+## precision = 0.056 , recall = 0.139 , f1 = 0.08 , accuracy = 0.739 , specificity = 0.793
+
+# SoundRep
+## tp = 296 , tn = 3383 , fp = 212 , fn = 253
+## precision = 0.583 , recall = 0.539 , f1 = 0.56 , accuracy = 0.888 , specificity = 0.941
+
+# WordRep
+## tp = 269 , tn = 3526 , fp = 188 , fn = 161
+## precision = 0.589 , recall = 0.626 , f1 = 0.607 , accuracy = 0.916 , specificity = 0.949
