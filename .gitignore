@@ -6,4 +6,4 @@ sep28k_env/
 venv/
 .env/
 .envs/
-*.pt
+
