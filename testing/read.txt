@@ -1,0 +1,2 @@
+This is a test directory. Where saved models are moved and ran on other new unseen data. 
+NOTE: both the model's weights (.pt) and the label encoder (.pkl) for refernce.
