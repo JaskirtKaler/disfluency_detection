@@ -1,0 +1,162 @@
+Results for full model
+
+
+# Block
+## tp = 188 , tn = 1677 , fp = 245 , fn = 294
+## precision = 0.434 , recall = 0.39 , f1 = 0.411 , accuracy = 0.776 , specificity = 0.873
+
+# Interjection
+## tp = 366 , tn = 1860 , fp = 93 , fn = 85
+## precision = 0.797 , recall = 0.812 , f1 = 0.804 , accuracy = 0.926 , specificity = 0.952
+
+# Prolongation
+## tp = 321 , tn = 1771 , fp = 150 , fn = 162
+## precision = 0.682 , recall = 0.665 , f1 = 0.673 , accuracy = 0.87 , specificity = 0.922
+
+# SoundRep
+## tp = 244 , tn = 1877 , fp = 148 , fn = 135
+## precision = 0.622 , recall = 0.644 , f1 = 0.633 , accuracy = 0.882 , specificity = 0.927
+
+# WordRep
+## tp = 408 , tn = 1803 , fp = 128 , fn = 65
+## precision = 0.761 , recall = 0.863 , f1 = 0.809 , accuracy = 0.92 , specificity = 0.934
+
+
+
+Results for 2k downsample, but every label except Block
+
+# Interjection
+## tp = 365 , tn = 1859 , fp = 94 , fn = 86
+## precision = 0.795 , recall = 0.809 , f1 = 0.802 , accuracy = 0.925 , specificity = 0.952
+
+# Prolongation
+## tp = 294 , tn = 1780 , fp = 141 , fn = 189
+## precision = 0.676 , recall = 0.609 , f1 = 0.641 , accuracy = 0.863 , specificity = 0.927
+
+# SoundRep
+## tp = 258 , tn = 1865 , fp = 160 , fn = 121
+## precision = 0.617 , recall = 0.681 , f1 = 0.647 , accuracy = 0.883 , specificity = 0.921
+
+# WordRep
+## tp = 375 , tn = 1849 , fp = 82 , fn = 98
+## precision = 0.821 , recall = 0.793 , f1 = 0.806 , accuracy = 0.925 , specificity = 0.958
+
+Every Label Except Prolongation
+
+# Interjection
+## tp = 365 , tn = 1859 , fp = 94 , fn = 86
+## precision = 0.795 , recall = 0.809 , f1 = 0.802 , accuracy = 0.925 , specificity = 0.952
+
+# Prolongation
+## tp = 294 , tn = 1780 , fp = 141 , fn = 189
+## precision = 0.676 , recall = 0.609 , f1 = 0.641 , accuracy = 0.863 , specificity = 0.927
+
+# SoundRep
+## tp = 258 , tn = 1865 , fp = 160 , fn = 121
+## precision = 0.617 , recall = 0.681 , f1 = 0.647 , accuracy = 0.883 , specificity = 0.921
+
+# WordRep
+## tp = 375 , tn = 1849 , fp = 82 , fn = 98
+## precision = 0.821 , recall = 0.793 , f1 = 0.806 , accuracy = 0.925 , specificity = 0.958
+
+Every Label Except SoundRep
+
+# Block
+## tp = 179 , tn = 1701 , fp = 221 , fn = 303
+## precision = 0.448 , recall = 0.371 , f1 = 0.406 , accuracy = 0.782 , specificity = 0.885
+
+# Interjection
+## tp = 389 , tn = 1827 , fp = 126 , fn = 62
+## precision = 0.755 , recall = 0.863 , f1 = 0.805 , accuracy = 0.922 , specificity = 0.935
+
+# Prolongation
+## tp = 308 , tn = 1773 , fp = 148 , fn = 175
+## precision = 0.675 , recall = 0.638 , f1 = 0.656 , accuracy = 0.866 , specificity = 0.923
+
+# WordRep
+## tp = 369 , tn = 1843 , fp = 88 , fn = 104
+## precision = 0.807 , recall = 0.78 , f1 = 0.794 , accuracy = 0.92 , specificity = 0.954
+
+
+Every Label Execpt Block and Prolongation
+
+# Interjection
+## tp = 368 , tn = 1844 , fp = 109 , fn = 83
+## precision = 0.771 , recall = 0.816 , f1 = 0.793 , accuracy = 0.92 , specificity = 0.944
+
+# SoundRep
+## tp = 273 , tn = 1779 , fp = 246 , fn = 106
+## precision = 0.526 , recall = 0.72 , f1 = 0.608 , accuracy = 0.854 , specificity = 0.879
+
+# WordRep
+## tp = 337 , tn = 1874 , fp = 57 , fn = 136
+## precision = 0.855 , recall = 0.712 , f1 = 0.777 , accuracy = 0.92 , specificity = 0.97
+
+Every Label Except Block, Prolongation, and SoundRep
+
+# Interjection
+## tp = 364 , tn = 1870 , fp = 83 , fn = 87
+## precision = 0.814 , recall = 0.807 , f1 = 0.811 , accuracy = 0.929 , specificity = 0.958
+
+# WordRep
+## tp = 392 , tn = 1820 , fp = 111 , fn = 81
+## precision = 0.779 , recall = 0.829 , f1 = 0.803 , accuracy = 0.92 , specificity = 0.943
+
+Only Block, Prolongation, and SoundRep
+
+# Block
+## tp = 253 , tn = 1537 , fp = 385 , fn = 229
+## precision = 0.397 , recall = 0.525 , f1 = 0.452 , accuracy = 0.745 , specificity = 0.8
+
+# Prolongation
+## tp = 287 , tn = 1813 , fp = 108 , fn = 196
+## precision = 0.727 , recall = 0.594 , f1 = 0.654 , accuracy = 0.874 , specificity = 0.944
+
+# SoundRep
+## tp = 214 , tn = 1903 , fp = 122 , fn = 165
+## precision = 0.637 , recall = 0.565 , f1 = 0.599 , accuracy = 0.881 , specificity = 0.94
+
+
+Full multilabel on UClass
+
+# Block
+## tp = 91 , tn = 3097 , fp = 190 , fn = 1334
+## precision = 0.324 , recall = 0.064 , f1 = 0.107 , accuracy = 0.677 , specificity = 0.942
+
+# Interjection
+## tp = 616 , tn = 3356 , fp = 426 , fn = 314
+## precision = 0.591 , recall = 0.662 , f1 = 0.625 , accuracy = 0.843 , specificity = 0.887
+
+# Prolongation
+## tp = 138 , tn = 3317 , fp = 952 , fn = 305
+## precision = 0.127 , recall = 0.312 , f1 = 0.18 , accuracy = 0.733 , specificity = 0.777
+
+# SoundRep
+## tp = 377 , tn = 2781 , fp = 281 , fn = 1273
+## precision = 0.573 , recall = 0.228 , f1 = 0.327 , accuracy = 0.67 , specificity = 0.908
+
+# WordRep
+## tp = 155 , tn = 3975 , fp = 407 , fn = 175
+## precision = 0.276 , recall = 0.47 , f1 = 0.348 , accuracy = 0.876 , specificity = 0.907
+
+Full multilabel on FluencyBank
+
+# Block
+## tp = 45 , tn = 3317 , fp = 399 , fn = 383
+## precision = 0.101 , recall = 0.105 , f1 = 0.103 , accuracy = 0.811 , specificity = 0.893
+
+# Interjection
+## tp = 958 , tn = 2822 , fp = 192 , fn = 172
+## precision = 0.833 , recall = 0.848 , f1 = 0.84 , accuracy = 0.912 , specificity = 0.936
+
+# Prolongation
+## tp = 47 , tn = 3017 , fp = 789 , fn = 291
+## precision = 0.056 , recall = 0.139 , f1 = 0.08 , accuracy = 0.739 , specificity = 0.793
+
+# SoundRep
+## tp = 296 , tn = 3383 , fp = 212 , fn = 253
+## precision = 0.583 , recall = 0.539 , f1 = 0.56 , accuracy = 0.888 , specificity = 0.941
+
+# WordRep
+## tp = 269 , tn = 3526 , fp = 188 , fn = 161
+## precision = 0.589 , recall = 0.626 , f1 = 0.607 , accuracy = 0.916 , specificity = 0.949
