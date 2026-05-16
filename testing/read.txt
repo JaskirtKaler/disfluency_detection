@@ -1,2 +1,23 @@
 This is a test directory. Where saved models are moved and ran on other new unseen data. 
 NOTE: both the model's weights (.pt) and the label encoder (.pkl) for refernce.
+
+
+when running the single task approaches the final cell will save a .pkl and .pt file in the jk directory. Move these files 
+to the models directory in testing to runt he evaluations. on both Uclass and Fluency Bank
+
+UClass and FlucnyBank folder: 
+due to the size the dataset are not included in the repo. They are mounted on the local machine through a sshfs
+mount point on the desktop. So make sure you mount them first before running the approach on them. This 
+
+FlucnyBank/
+        010
+        016...
+Uclass/
+        clips/
+            .wav file
+            .wav file ...
+
+
+How to run and all dependencies for respected models will be in root run.txt file.
+
+
